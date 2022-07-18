@@ -72,5 +72,11 @@ padding: 200px;
       .button:hover {
         background-color: rgb(2, 66, 2);
       }
-    
+    .footer{
+        color: #737373;
+        word-spacing: 5px;
+        font-family: inherit;
+        font-style: inherit;
+        font-size: 15px;
+    }
   
