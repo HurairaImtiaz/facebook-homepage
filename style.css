@@ -1,82 +1,89 @@
 .container-fluid{
-    background-color: rgb(223, 219, 219);
-    /* height: fit-content; */
-    height: 900px;
-    display: inline-block;
+  background-color: rgb(223, 219, 219);
+  /* height: fit-content; */
+  height: 900px;
+  display: inline-block;
 }
 .col-sm-5{
-    background-color: rgb(223, 219, 219);
-    align-content: center;
-    height: 900px;
+  background-color: rgb(223, 219, 219);
+  align-content: center;
+  height: 900px;
 }
 
 .h1{
-   font-size: 80px;
-   font-style: inherit;
-   color: rgb(42, 29, 221);
-   
+
+ font-style: inherit;
+ color: rgb(42, 29, 221);
+ padding: 10px;
+ margin-left: 100px;
+ margin-top: 250px;
+
+ 
 }
 .h5{
-    font-size: 30px;}
-    .col-sm-7{
-        /* background-color: blanchedalmond; */
+  font-size: 30px;
+  margin-left: 100px;
+  /* padding: 10%; */
+}
+  .col-sm-7{
+      /* background-color: blanchedalmond; */
 /* align-content: center; */
-padding: 200px;
-    }
-    .container-sm{
-        background-color: white;
-        height: 400px;
-        width: 450px;
-        margin-top: 200px;
-        border: 20px;
-        width: 450px;
-        margin-right: 200px;
-    }
-    #inputname{
-        margin-top: 10px;
-    }
-    .block {
-        display: block;
-        width: 100%;
-        border: none;
-        background-color: blue;
-        color: white;
-        padding: 14px 28px;
-        font-size: 16px;
-        cursor: pointer;
-        text-align: center;
-        margin-top: 20px;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-      
-      .block:hover {
-        background-color: blue;
-        color: black;
-      }
-      .button {
-        background-color: green;
-        border: none;
-        color:white;
-        padding: 10px 20px;
-        text-align: center;
-       font-style:arial;
-        display: inline-block;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 6px;
-      }
-      
-      .button:hover {
-        background-color: rgb(2, 66, 2);
-      }
-    .footer{
-        color: #737373;
-        word-spacing: 5px;
-        font-family: inherit;
-        font-style: inherit;
-        font-size: 15px;
-    }
+}
+.col-md{
+  background-color: white;
+  height: 40%;
+  margin-top: 30%;
+}
+.container-fluid2{
+  background-color: pink;
+  height: 100px;
+
+}
+.col-sm-2{
+  background-color: green;
+  height: 200px;
+
+}
+.col-sm-8{
+  background-color:yellowgreen;
+  height: 200px;
   
+}
+.col-sm-2{
+  background-color: green;
+  height: 200px;
+  
+}
+.block{border-radius: 12px;
+  background-color: blue; /* blue */
+  width: 99%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 20px;
+  margin: 2px 2px;
+  /* cursor: pointer; */
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+/* login page  */
+     
+.imgfb{
+  border-radius: 100px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
